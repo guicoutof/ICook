@@ -29,6 +29,7 @@ public class ICook {
     private Receita receitaAtual = new Receita();
     private ArrayList<Receita> receitas;
     private ArrayList<Usuario> usuarios;
+    
 
     public Usuario getUsuarioAtivo() {
         return usuarioAtivo;
@@ -43,25 +44,25 @@ public class ICook {
     
     public Receita verReceitas() {
         JOptionPane.showMessageDialog(null,"Lista de Receitas");
-        System.out.println("Classe ICook, funcao verReceitas \n");
+        System.out.println("Classe ICook, funcao verReceitas");
             return null;
     }
 
     public Receita selecionarReceita(String nome) {
         JOptionPane.showMessageDialog(null,"Receita Selecionada");
-        System.out.println("Classe ICook, funcao selecionarReceita \n");
+        System.out.println("Classe ICook, funcao selecionarReceita");
             return null;
     }
 
     public boolean confirmarSolicitacao(short confirmacao) {
         JOptionPane.showMessageDialog(null,"Confirmado");
-        System.out.println("Classe ICook, funcao confirmarSolicitacao \n");
+        System.out.println("Classe ICook, funcao confirmarSolicitacao");
             return false;
     }
 
     public boolean excluirReceita(Receita receita) {
         JOptionPane.showMessageDialog(null,"Receita Excluida");
-        System.out.println("Classe ICook, funcao excluirReceita \n");
+        System.out.println("Classe ICook, funcao excluirReceita");
             return false;
     }
 
@@ -73,7 +74,7 @@ public class ICook {
     
     public void criarUsuario(String id,String senha){
         JOptionPane.showMessageDialog(null,"Usuario criado");
-        System.out.println("Classe ICook, funcao criarUsuario \n");
+        System.out.println("Classe ICook, funcao criarUsuario");
     }
     
 }
