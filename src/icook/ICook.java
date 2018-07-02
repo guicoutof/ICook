@@ -5,6 +5,10 @@
  */
 package icook;
 
+import icook.classe.*;
+import icook.IU.*;
+
+
 /**
  *
  * @author AlphaLegends
@@ -15,7 +19,8 @@ public class ICook {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        IUPrincipal IU = new IUPrincipal();
+        IU.setVisible(true);
     }
     
 }
