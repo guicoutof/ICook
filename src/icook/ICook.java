@@ -5,6 +5,8 @@
  */
 package icook;
 
+import icook.classe.Usuario;
+import icook.classe.Receita;
 import icook.classe.*;
 import icook.IU.*;
 
@@ -16,7 +18,7 @@ import icook.IU.*;
 public class ICook {
 
     public static void main(String[] args) {
-        IUPrincipal IU = new IUPrincipal();
+        IUICook IU = new IUICook();
         IU.setVisible(true);
     }
     
