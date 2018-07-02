@@ -39,6 +39,10 @@ public class ICook {
         return receitaAtual;
     }
 
+    public void setReceitaAtual(Receita receitaAtual) {
+        this.receitaAtual = receitaAtual;
+    }
+
     
     
     

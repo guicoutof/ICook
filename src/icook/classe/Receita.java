@@ -19,6 +19,11 @@ public class Receita {
         
         
         
+        public boolean aprovarReceita(Receita receita) {
+            JOptionPane.showMessageDialog(null,"Receita aprovada");
+                System.out.println("Classe Receita, funcao aprovarReceita");
+		return false;
+	}
         
 
 	public boolean acompanharReceita(Receita receita) {
@@ -34,6 +39,12 @@ public class Receita {
 	public boolean criarReceita(String nome, String tempoPreparo) {
             JOptionPane.showMessageDialog(null,"Criando Receita");
                 System.out.println("Classe Receita, funcao criarReceita");
+                inserirIngredientes(JOptionPane.showInputDialog("insira os ingredientes separados por ;"));
+                for(int i=0;i<5;i++){
+                    etapa.inserirModoPreparo(JOptionPane.showInputDialog("Insira uma etapa"));
+                    System.out.println("Com a inserçao vazia o loop pararia na ideia");
+                }
+                
 		return false;
 	}
 
