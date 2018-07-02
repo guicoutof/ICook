@@ -36,7 +36,7 @@ public class Receita {
 		return false;
 	}
 
-	public boolean criarReceita(String nome, String tempoPreparo) {
+	public boolean criarReceita(String nome, int tempoPreparo) {
             JOptionPane.showMessageDialog(null,"Criando Receita");
                 System.out.println("Classe Receita, funcao criarReceita");
                 inserirIngredientes(JOptionPane.showInputDialog("insira os ingredientes separados por ;"));
@@ -67,15 +67,16 @@ public class Receita {
 	}
 
 	public boolean modificarReceita(Receita receita) {
+            etapa.modificarComponente(etapa);
             JOptionPane.showMessageDialog(null,"Receita Modificada");
-                System.out.println("Classe Receita, funcao modificarReceita");
-		return false;
+            System.out.println("Classe Receita, funcao modificarReceita");
+	return false;
 	}
 
 	public boolean removerComentario(Comentario comentario) {
             JOptionPane.showMessageDialog(null,"Comentario Removido");
-                System.out.println("Classe Receita, funcao removerComentario");
-		return false;
+            System.out.println("Classe Receita, funcao removerComentario");
+	return false;
 	}
 
 }

@@ -36,23 +36,23 @@ public class Componente {
 
 	public Componente buscarEtapa(Componente etapa) {
                 JOptionPane.showMessageDialog(null,"Busca de Etapa");
-                System.out.println("Classe Componente, funcao buscarEtapa \n");
+                System.out.println("Classe Componente, funcao buscarEtapa");
 		return null;
 	}
 
 	public void concluirEtapa(Componente etapa) {
             JOptionPane.showMessageDialog(null,"Etapa Concluida");
-            System.out.println("Classe Componente, funcao concluirEtapa \n");
+            System.out.println("Classe Componente, funcao concluirEtapa");
 	}
 
 	public boolean inserirModoPreparo(String modo) {
-            JOptionPane.showMessageDialog(null,"Modo de Preparo inserido");
+                JOptionPane.showMessageDialog(null,"Modo de Preparo inserido");
                 System.out.println("Classe Componente, funcao inserirModoPreparo");
 		return false;
 	}
 
 	public boolean modificarComponente(Componente componente) {
-            JOptionPane.showMessageDialog(null,"Componente Modificada");
+                JOptionPane.showMessageDialog(null,"Componente Modificada");
                 System.out.println("Classe Componente, funcao modificarComponente");
 		return false;
 	}

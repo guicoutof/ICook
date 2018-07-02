@@ -73,7 +73,7 @@ public class ICook {
     public void sair() {
         JOptionPane.showMessageDialog(null,"Logout realizado");
         System.out.println("Classe ICook, funcao sair \n");
-
+        System.exit(0);
     }
     
     public void criarUsuario(String id,String senha){
