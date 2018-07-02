@@ -100,7 +100,7 @@ public class IUICook extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         icook.getUsuarioAtivo().autenticar(id.getText(),senha.getText());
-        IUICookPrincipal IU = new IUICookPrincipal();
+        IUICookPrincipal IU = new IUICookPrincipal(icook);
         IU.setVisible(true);
         
     }//GEN-LAST:event_jButton1ActionPerformed

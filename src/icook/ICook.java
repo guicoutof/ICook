@@ -48,7 +48,7 @@ public class ICook {
     }
 
     public Receita selecionarReceita(String nome) {
-        JOptionPane.showMessageDialog(null,"Receitas Selecionada");
+        JOptionPane.showMessageDialog(null,"Receita Selecionada");
         System.out.println("Classe ICook, funcao selecionarReceita \n");
             return null;
     }
