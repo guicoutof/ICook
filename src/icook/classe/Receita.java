@@ -15,7 +15,7 @@ public class Receita {
 
 	private ArrayList<Componente> componentes;
 
-	private Componente etapa;
+	private Componente etapa = new Componente();
         
         
         
@@ -23,8 +23,11 @@ public class Receita {
 
 	public boolean acompanharReceita(Receita receita) {
             JOptionPane.showMessageDialog(null,"Acompanhando Receita");
-                System.out.println("Classe Receita, funcao acompanharReceita\n");
-                
+            System.out.println("Classe Receita, funcao acompanharReceita\n");
+            for(int i=0;i<5;i++){
+                etapa.buscarEtapa(etapa);
+                etapa.concluirEtapa(etapa);
+            }
 		return false;
 	}
 

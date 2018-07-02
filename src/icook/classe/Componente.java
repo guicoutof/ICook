@@ -36,13 +36,13 @@ public class Componente {
 
 	public Componente buscarEtapa(Componente etapa) {
                 JOptionPane.showMessageDialog(null,"Busca de Etapa");
-                System.out.println("Classe Componente, funcao buscarEtapa");
+                System.out.println("Classe Componente, funcao buscarEtapa \n");
 		return null;
 	}
 
 	public void concluirEtapa(Componente etapa) {
             JOptionPane.showMessageDialog(null,"Etapa Concluida");
-            System.out.println("Classe Componente, funcao concluirEtapa");
+            System.out.println("Classe Componente, funcao concluirEtapa \n");
 	}
 
 	public boolean inserirModoPreparo(String modo) {
