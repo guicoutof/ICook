@@ -15,12 +15,35 @@ import icook.IU.*;
  */
 public class ICook {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         IUPrincipal IU = new IUPrincipal();
         IU.setVisible(true);
+    }
+    
+    private boolean ok;
+    private Usuario usuarioAtivo;
+    private Receita receitaAtual;
+    private Receita receitas[];
+    private Usuario usuarios[];
+    
+    public Receita verReceitas() {
+            return null;
+    }
+
+    public Receita selecionarReceita(String nome) {
+            return null;
+    }
+
+    public boolean confirmarSolicitacao(short confirmacao) {
+            return false;
+    }
+
+    public boolean excluirReceita(Receita receita) {
+            return false;
+    }
+
+    public void sair() {
+
     }
     
 }
